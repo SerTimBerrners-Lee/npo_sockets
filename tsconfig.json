@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+		"module": "commonjs",
+    "outDir": "./dist",
+    "allowJs": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "baseUrl": "src",
+    "typeRoots": [
+      "src/engines/types"
+    ]
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"],
+}
