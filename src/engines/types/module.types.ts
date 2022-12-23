@@ -1,0 +1,1 @@
+type AppModulesT = 'providers' | 'services';
